@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">Libraryapp</string>
-    <string name="blue">blue</string>
-    <string name="red">red</string>
-    <string name="green">green</string>
-    <string name="home">home</string>
-    <string name="profile">profile</string>
-</resources>
