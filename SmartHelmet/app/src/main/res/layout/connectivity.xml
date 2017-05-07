@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500px"
+        android:src="@drawable/sh"
+        android:id="@+id/im"/>
+    <Button
+        android:id="@+id/open"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:text="Connect"
+        android:layout_marginBottom="38dp"
+        android:layout_alignBottom="@+id/tv"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="31dp"
+        android:layout_marginEnd="31dp" />
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="200px"
+        android:text="Close Connection"
+        android:layout_toRightOf="@+id/tv"
+        android:layout_marginLeft="37dp"
+        android:layout_marginStart="37dp"
+        android:layout_alignTop="@+id/open"
+        android:layout_alignBottom="@+id/open" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="700px"
+        android:id="@+id/tv"
+        android:text=""
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="41dp" />
+
+</RelativeLayout>
